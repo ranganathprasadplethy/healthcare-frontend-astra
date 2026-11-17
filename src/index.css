@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f4f6f8; color: #1f2933; }
+main { max-width: 960px; margin: 0 auto; padding: 20px; }
+.nav { display: flex; align-items: center; gap: 24px; padding: 12px 24px; background: #0b6e69; color: #fff; flex-wrap: wrap; }
+.nav nav { display: flex; gap: 16px; flex: 1; }
+.nav a { color: #cfeeeb; text-decoration: none; padding: 4px 0; }
+.nav a.active { color: #fff; border-bottom: 2px solid #fff; }
+.who { display: flex; align-items: center; gap: 10px; font-size: 14px; }
+.card { background: #fff; border-radius: 8px; padding: 16px; margin: 12px 0; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.form { display: flex; flex-direction: column; gap: 10px; }
+.auth { max-width: 400px; margin: 60px auto; padding: 0 16px; }
+input, select, textarea { padding: 9px; border: 1px solid #cbd2d9; border-radius: 6px; font: inherit; width: 100%; }
+textarea { min-height: 70px; }
+button { padding: 9px 16px; background: #0b6e69; color: #fff; border: 0; border-radius: 6px; cursor: pointer; font: inherit; }
+button:disabled { opacity: .5; cursor: default; }
+button.secondary { background: #e4e7eb; color: #1f2933; }
+.row { display: flex; gap: 10px; align-items: center; }
+.between { justify-content: space-between; }
+.search { max-width: 300px; margin: 8px 0; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #eef0f2; font-size: 14px; }
+th { background: #f0f3f5; }
+.pager { display: flex; gap: 12px; align-items: center; justify-content: center; margin: 14px 0; }
+.error { color: #b42318; background: #fee4e2; padding: 8px 12px; border-radius: 6px; }
+.ok { color: #067647; background: #dcfae6; padding: 8px 12px; border-radius: 6px; }
+.tag { padding: 2px 8px; border-radius: 10px; font-size: 12px; background: #e4e7eb; }
+.tag.scheduled { background: #dbeafe; color: #1d4ed8; }
+.tag.completed { background: #dcfae6; color: #067647; }
+.tag.cancelled { background: #fee4e2; color: #b42318; }
+.center { text-align: center; margin-top: 60px; }
